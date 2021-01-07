@@ -1,5 +1,6 @@
 public class HelloWorld {
    public static void main(String[] args) {
-      System.out.println("Hello world\nThis is my 3rd year at CP\n\t-Bryce Collard");
+      int years = 3;
+      System.out.printf("Hello world\nI've been at CP for %d years\n\t-Bryce Collard and Ethan Zimbelman\n", years);
    }
 }
